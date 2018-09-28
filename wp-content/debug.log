@@ -1,0 +1,191 @@
+[28-Sep-2018 07:01:39 UTC] PHP Notice:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /mnt/c/Users/Public/projects/elad/wp-admin/includes/class-theme-upgrader.php on line 122
+[28-Sep-2018 11:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function themename_custom_headerthryjr_setup() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:3
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 3
+[29-Sep-2018 06:27:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function hivrot_debug() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:3
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 3
+[29-Sep-2018 20:09:19 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:23 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:33
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:41 UTC] PHP Parse error:  syntax error, unexpected '?>' in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 33
+[29-Sep-2018 20:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_ur() in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php:9
+Stack trace:
+#0 /mnt/c/Users/Public/projects/elad/wp-includes/template-loader.php(74): include()
+#1 /mnt/c/Users/Public/projects/elad/wp-blog-header.php(19): require_once('/mnt/c/Users/Pu...')
+#2 /mnt/c/Users/Public/projects/elad/index.php(18): require('/mnt/c/Users/Pu...')
+#3 {main}
+  thrown in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/index.php on line 9
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:50 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:55 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 14
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 17
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 22
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 25
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 112
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 113
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 116
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 117
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 120
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 121
+[29-Sep-2018 20:35:56 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/footer.php on line 124
+[29-Sep-2018 20:39:04 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:39:11 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:39:11 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:39:11 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:39:11 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:39:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
+[29-Sep-2018 20:40:03 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
