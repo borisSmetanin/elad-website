@@ -21,8 +21,10 @@
     <!-- Plugin CSS -->
     <link href="<?= get_option('siteurl') ?>/wp-content/themes/hivrot/assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for freelancer template -->
     <link href="<?= get_option('siteurl') ?>/wp-content/themes/hivrot/assets/css/freelancer.css" rel="stylesheet">
+    <!--  Custom styles for hivrote (this site) template -->
+    <link href="<?= get_option('siteurl') ?>/wp-content/themes/hivrot/style.css" rel="stylesheet">
 
   </head>
 

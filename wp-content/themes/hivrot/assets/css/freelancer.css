@@ -214,14 +214,6 @@ header.masthead h2 {
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
-  /* Adjustment start */
-  /* overflow: hidden; */
-  height: 200px;
-  -webkit-box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
-  -moz-box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
-  box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
-  border: 1px solid rgba(24, 188, 156, 0.9);
-  /* Adjustment end */
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -357,7 +349,7 @@ a {
   color: #18BC9C;
 }
 
-a:focus, a:hover, a:active {
+a:focus:not(.hivrot-page-item), a:hover:not(.hivrot-page-item), a:active:not(.hivrot-page-item) {
   color: #128f76;
 }
 

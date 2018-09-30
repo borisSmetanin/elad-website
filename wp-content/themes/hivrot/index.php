@@ -1,10 +1,10 @@
 <?php
-// function hivrot_debug($arg) {
-//   echo '<pre>';
-//   var_dump($arg);
-//   echo '<pre />';
-//   die;    
-// }
+function hivrot_debug($arg) {
+  echo '<pre>';
+  var_dump($arg);
+  echo '<pre />';
+  die;    
+}
 
  // hivrot_debug(get_option('siteurl'));
 
@@ -15,38 +15,41 @@
 // foreach(get_all_page_ids() as $page_id) {
 //   echo $page_id.' : ' .get_the_title($page_id).' <br />'; 
 // }
-// var_dump(is_home());
-// die;
+
+//hivrot_debug(test());
 get_header();
+if (is_front_page()):
 ?>
  <!-- Portfolio Grid Section -->
  <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">קצת עלינו</h2>
         <hr class="star-dark mb-5">
 
         <div class="row">
           <?php
-            foreach(get_hivrot_menue_pages() as $page_obj){
+            foreach(get_hivrot_page_items() as $hivrot_page_item){
           ?>
               <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="<?=get_option('siteurl').'/'.$page_obj->post_name ?>">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fas fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <h2><?=$page_obj->post_title?> </h2>
-                  <!-- <img class="img-fluid" src="wp-content/themes/hivrot/assets/img/portfolio/cabin.png" alt=""> -->
+                <a class="hivrot-page-item d-block mx-auto" href="<?=$hivrot_page_item['page_url'] ?>">
+                  <h2><?=$hivrot_page_item['post_title']?> </h2>
+                  <p class="page-post"><?= $hivrot_page_item['page_trimmed_content']?> <span class="read-more bold">(קיראו עוד)</span> </p>
                 </a>
               </div>
 
           <?php
             }
           ?>
+          <!-- end of row -->
+        </div>
 
-      </div>
+      <!-- end of portfolio container -->
+    </div>
+    <!-- end of portfolio section -->
 </section>
+<?php
+endif;
+?>
 
 <?php
 get_footer();
