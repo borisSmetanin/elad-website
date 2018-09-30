@@ -1,4 +1,22 @@
 <?php
+// function hivrot_debug($arg) {
+//   echo '<pre>';
+//   var_dump($arg);
+//   echo '<pre />';
+//   die;    
+// }
+
+ // hivrot_debug(get_option('siteurl'));
+
+//hivrot_debug(get_hivrot_menue_pages());
+//print_r(get_hivrot_menue_pages());
+
+//hivrot_debug(get_hivrot_menue_pages());
+// foreach(get_all_page_ids() as $page_id) {
+//   echo $page_id.' : ' .get_the_title($page_id).' <br />'; 
+// }
+// var_dump(is_home());
+// die;
 get_header();
 ?>
  <!-- Portfolio Grid Section -->
