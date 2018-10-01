@@ -16,9 +16,11 @@ function hivrot_debug($arg) {
 //   echo $page_id.' : ' .get_the_title($page_id).' <br />'; 
 // }
 
-//hivrot_debug(test());
+//hivrot_debug(get_hivrot_page_link_items());
+//get_hivrot_page(get_the_title());
 get_header();
-if (is_front_page()):
+$hivrot_page = get_post();
+if (is_front_page()){
 ?>
  <!-- Portfolio Grid Section -->
  <section class="portfolio" id="portfolio">
@@ -42,15 +44,36 @@ if (is_front_page()):
           ?>
           <!-- end of row -->
         </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-12 hivrot-page-content">
+                <?= apply_filters('the_content', $hivrot_page->post_content); ?>
+            </div>
+          </div> 
 
       <!-- end of portfolio container -->
     </div>
     <!-- end of portfolio section -->
 </section>
 <?php
-endif;
+} else {
 ?>
+  <section class="hivrot-page" id="hivrot-page">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0"><?=$hivrot_page->post_title?></h2>
+          <hr class="star-dark mb-5">
+          <div class="row">
+            <div class="col-md-12 col-lg-12 hivrot-page-content">
+                <?= apply_filters('the_content', $hivrot_page->post_content); ?>
+            </div>
 
+        <!-- end of portfolio container -->
+      </div>
+      <!-- end of portfolio section -->
+  </section>
+
+<?php
+}
+?>
 <?php
 get_footer();
 ?>
