@@ -1,31 +1,25 @@
 <?php
-function hivrot_debug($arg) {
-  echo '<pre>';
-  var_dump($arg);
-  echo '<pre />';
-  die;    
-}
-
- // hivrot_debug(get_option('siteurl'));
-
-//hivrot_debug(get_hivrot_menue_pages());
-//print_r(get_hivrot_menue_pages());
-
-//hivrot_debug(get_hivrot_menue_pages());
-// foreach(get_all_page_ids() as $page_id) {
-//   echo $page_id.' : ' .get_the_title($page_id).' <br />'; 
-// }
-
-//hivrot_debug(get_hivrot_page_link_items());
-//get_hivrot_page(get_the_title());
 get_header();
 $hivrot_page = get_post();
 if (is_front_page()){
 ?>
+
+ <section class="bg-primary text-white mb-0 hivrot-page" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white"><?=$hivrot_page->post_title?></h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 hivrot-page-content">
+                <?= apply_filters('the_content', $hivrot_page->post_content); ?>
+            </div>
+        </div>
+      </div>
+  </section>
+
  <!-- Portfolio Grid Section -->
  <section class="portfolio" id="portfolio">
     <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">קצת עלינו</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">קיראו עוד</h2>
         <hr class="star-dark mb-5">
 
         <div class="row">
@@ -43,17 +37,27 @@ if (is_front_page()){
             }
           ?>
           <!-- end of row -->
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-lg-12 hivrot-page-content">
-                <?= apply_filters('the_content', $hivrot_page->post_content); ?>
-            </div>
-          </div> 
-
+        </div> 
       <!-- end of portfolio container -->
     </div>
     <!-- end of portfolio section -->
 </section>
+
+<section class="" id="gallery">
+  <div class="container">
+    <h2 class="text-center text-uppercase">טעימות מהפעילות</h2>
+    <hr class="star-dark mb-5">
+    <div class="row">
+      <div class="col-md-12 col-lg-12">
+        TODO add carusel in here!!!!!
+        
+      </div><!-- End of column -->
+    
+    </div><!-- End of row -->
+        
+  </div><!-- End of container -->
+      
+</section><!-- End of section -->
 <?php
 } else {
 ?>

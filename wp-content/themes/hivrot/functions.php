@@ -2,7 +2,8 @@
 
 include 'Arr.php';
 
-function get_hivrot_page_items() {
+function get_hivrot_page_items() 
+{
     $hivrot_page_items = [];
     $base_url           = get_option('siteurl');
     $wp_pages           = get_pages([
@@ -27,19 +28,20 @@ function get_hivrot_page_items() {
 }
 add_action( 'wp_enqueue_scripts', 'get_hivrot_page_items' );
 
-function get_hivrot_page_link_items() {
+function get_hivrot_page_link_items() 
+{
 
     $hivrote_page_link_items = [];
     if (is_front_page()) {
 
         $hivrote_page_link_items[] = [
-            'title' => 'קיראו עוד',
-            'link_herf'  => '#portfolio',
+            'title' => 'קצת עלינו',
+            'link_herf'  => '#about',
             'class' => 'js-scroll-trigger'
         ];
         $hivrote_page_link_items[] = [
-            'title' => 'קצת עלינו',
-            'link_herf'  => '#about',
+            'title' => 'קיראו עוד',
+            'link_herf'  => '#portfolio',
             'class' => 'js-scroll-trigger'
         ];
     } else{
@@ -73,11 +75,39 @@ function get_hivrot_page_link_items() {
 
 add_action( 'wp_enqueue_scripts', 'get_hivrot_page_link_items' );
 
-// function hivrot_debug($arg) {
-//     echo '<pre>';
-//     var_dump($arg);
-//     echo '<pre />';
-//     die;    
-// }
 
-//add_action( 'after_setup_theme', 'hivrot_debug' );
+function get_main_page_gallery()
+{
+    $main_page_gallery_category = get_categories([
+        'slug' => 'main_page_gallery'
+    ]);
+
+    if ( ! $main_page_gallery_category || ! isset($main_page_gallery_category[0]) )
+    {
+        return [];
+    }
+    
+    $main_page_gallery_posts = get_posts([
+        'category' => $main_page_gallery_category[0]->cat_ID
+    ]);
+
+    if ( ! $main_page_gallery_posts || ! isset($main_page_gallery_posts[0]))
+    {
+        return []; 
+    }
+      
+    $main_page_gallery = get_post_gallery($main_page_gallery_posts[0]->ID, FALSE);
+
+    return $main_page_gallery ? Arr::get($main_page_gallery, 'src', []) : [];
+}
+
+add_action( 'wp_enqueue_scripts', 'get_main_page_gallery' );
+
+function hivrot_debug($arg) {
+    echo '<pre>';
+    var_dump($arg);
+    echo '<pre />';
+    die;    
+}
+
+add_action( 'wp_enqueue_scripts', 'hivrot_debug' );

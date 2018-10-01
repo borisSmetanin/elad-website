@@ -42,11 +42,6 @@
           <ul class="navbar-nav">
               <?php
                 foreach(get_hivrot_page_link_items() as $hivrote_page_link_item) {
-
-                    // echo '<pre>';
-                    // print_r($hivrote_page_link_item);
-                    // echo '</pre>';
-                    // die;
               ?>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded <?= isset($hivrote_page_link_item['class']) ?$hivrote_page_link_item['class'] : '' ?>" href="<?= $hivrote_page_link_item['link_herf']?>">

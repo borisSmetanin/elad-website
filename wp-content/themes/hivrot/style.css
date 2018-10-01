@@ -12,8 +12,14 @@ h1, h2 {
 Theme Name: Hivrote (חיברות)
 */
 
+/**Main page - about section **/
+
+#about .hivrot-page-content{
+    text-align: center !important;
+}
+
 /** Main page - Page items **/
-.portfolio .hivrot-page-item {
+#portfolio .hivrot-page-item {
     padding: 10px;
     position: relative;
     display: block;
@@ -27,30 +33,26 @@ Theme Name: Hivrote (חיברות)
     overflow: hidden;
 }
 
-.portfolio .hivrot-page-item .page-post {
+#portfolio .hivrot-page-item .page-post {
     direction: rtl;
     text-align: right !important;
     color: black;
 }
 
-.portfolio .hivrot-page-item .read-more {
+#portfolio .hivrot-page-item .read-more {
     color: rgba(24, 188, 156, 0.9);
 }
 
 
-.portfolio .hivrot-page-item:hover {
+#portfolio .hivrot-page-item:hover {
     opacity: 0.5;
     text-decoration: none;
     color: rgba(24, 188, 156, 0.9);
 }
 
-@media (min-width: 992px) {
-    .portfolio, .hivrot-page {
-      margin-top: 30px;
-    }
-  }
 
-  /** Page layout **/
+
+/** Page layout **/
 
   .hivrot-page .hivrot-page-content {
     direction: rtl;
@@ -60,3 +62,9 @@ Theme Name: Hivrote (חיברות)
   .hivrot-page .hivrot-page-content h2 {
     text-align: right !important;
   }
+
+  @media (min-width: 992px) {
+    .hivrot-page {
+      margin-top: 30px;
+    }
+}
