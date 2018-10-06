@@ -1,5 +1,4 @@
 <?php
-//hivrot_debug(get_main_page_gallery());
 get_header();
 $hivrot_page = get_post();
 if (is_front_page()){

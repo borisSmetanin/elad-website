@@ -76,3 +76,17 @@ text-align: right !important;
       margin-top: 30px;
     }
 }
+
+/** footer layout **/
+
+#contactForm {
+    direction: rtl;
+}
+
+#contactForm .help-block {
+    text-align: right;
+}
+
+#contactForm .floating-label-form-group-with-value label {
+    text-align: right;
+}
