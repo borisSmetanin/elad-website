@@ -1,9 +1,13 @@
+console.info('FORM_URL', FORM_URL);
+
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
-      // additional error messages or events
+     console.info('error accord');
+     console.info('error event', event);
+     console.info('errors', errors);
     },
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
@@ -20,16 +24,21 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: FORM_URL,
         type: "POST",
         data: {
           name: name,
           phone: phone,
           email: email,
-          message: message
+          message: message,
+          action: 'contact_form'
         },
         cache: false,
-        success: function() {
+        success: function(data) {
+
+          console.info('ajax sucsess');
+          console.info('ajax sucsess data',data);
+
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -41,7 +50,9 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
-        error: function() {
+        error: function(data) {
+          console.info('ajax error');
+          console.info('ajax error data',data);
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")

@@ -1,3 +1,92 @@
+/** Global layaout settings **/
+
+body, nav, section {
+    font-family: 'Heebo', sans-serif !important;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive !important;
+}
+
 /*
 Theme Name: Hivrote (חיברות)
 */
+
+/**Main page - about section **/
+
+#about .hivrot-page-content{
+    text-align: center !important;
+}
+
+/** Main page - Page items **/
+#portfolio .hivrot-page-item {
+    padding: 10px;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-bottom: 15px;
+    height: 150px;
+    -webkit-box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: -11px 9px 5px -8px rgba(0,0,0,0.75);
+    border: 1px solid rgba(24, 188, 156, 0.9);
+    overflow: hidden;
+}
+
+#portfolio .hivrot-page-item .page-post {
+    direction: rtl;
+    text-align: right !important;
+    color: black;
+}
+
+#portfolio .hivrot-page-item .read-more {
+    color: rgba(24, 188, 156, 0.9);
+}
+
+
+#portfolio .hivrot-page-item:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    color: rgba(24, 188, 156, 0.9);
+}
+
+/** Main page gallery **/
+
+@media (min-width: 992px) {
+    #hivrot-main-page-gallery {
+        width: 800px;
+        margin: auto;
+    }
+}
+
+
+/** Page layout **/
+
+.hivrot-page .hivrot-page-content {
+direction: rtl;
+text-align: right !important;
+}
+
+.hivrot-page .hivrot-page-content h2 {
+text-align: right !important;
+}
+
+@media (min-width: 992px) {
+    .hivrot-page {
+      margin-top: 30px;
+    }
+}
+
+/** footer layout **/
+
+#contactForm {
+    direction: rtl;
+}
+
+#contactForm .help-block {
+    text-align: right;
+}
+
+#contactForm .floating-label-form-group-with-value label {
+    text-align: right;
+}

@@ -66,6 +66,9 @@ section {
 }
 
 section h2 {
+  /* Boris - adjustment start */
+  text-align: center;
+  /* Boris - adjustment end */
   font-size: 2.25rem;
   line-height: 2rem;
 }
@@ -117,6 +120,7 @@ section h2 {
 #mainNav .navbar-nav {
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
+  flex-direction: row-reverse !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -339,7 +343,7 @@ a {
   color: #18BC9C;
 }
 
-a:focus, a:hover, a:active {
+a:focus:not(.hivrot-page-item), a:hover:not(.hivrot-page-item), a:active:not(.hivrot-page-item) {
   color: #128f76;
 }
 
