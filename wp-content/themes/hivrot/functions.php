@@ -44,6 +44,11 @@ function get_hivrot_page_link_items()
             'link_herf'  => '#portfolio',
             'class' => 'js-scroll-trigger'
         ];
+        $hivrote_page_link_items[] = [
+            'title' => 'טעימות מהפעילות',
+            'link_herf'  => '#activity-gallery',
+            'class' => 'js-scroll-trigger'
+        ];
     } else{
         $base_url           = get_option('siteurl');
         $wp_pages           = get_pages([
@@ -96,9 +101,38 @@ function get_main_page_gallery()
         return []; 
     }
       
-    $main_page_gallery = get_post_gallery($main_page_gallery_posts[0]->ID, FALSE);
+    $main_page_gallery_data = get_post_gallery($main_page_gallery_posts[0]->ID, FALSE);
 
-    return $main_page_gallery ? Arr::get($main_page_gallery, 'src', []) : [];
+    $main_page_gallery_ids = Arr::get($main_page_gallery_data, 'ids');
+
+    if ( ! $main_page_gallery_ids)
+    {
+        return [];
+    }
+
+    $main_page_gallery_ids = explode(',', $main_page_gallery_ids);
+
+    if ( !  $main_page_gallery_ids)
+    {
+        return [];
+    }
+
+    $main_page_gallery = [];
+
+    foreach($main_page_gallery_ids as $main_page_gallery_id)
+    {
+        $main_page_gallery[] = get_post( $main_page_gallery_id, ARRAY_A);
+    }
+
+
+
+
+    //$main_page_gallery = get_post(93, ARRAY_A);
+
+    return $main_page_gallery;
+    //$main_page_gallery_ids = Arr::get($main_page_gallery, 'src', [])
+
+    //return $main_page_gallery ? Arr::get($main_page_gallery, 'src', []) : [];
 }
 
 add_action( 'wp_enqueue_scripts', 'get_main_page_gallery' );

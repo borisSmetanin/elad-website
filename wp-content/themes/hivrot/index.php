@@ -1,4 +1,5 @@
 <?php
+//hivrot_debug(get_main_page_gallery());
 get_header();
 $hivrot_page = get_post();
 if (is_front_page()){
@@ -43,14 +44,47 @@ if (is_front_page()){
     <!-- end of portfolio section -->
 </section>
 
-<section class="" id="gallery">
+<section class="" id="activity-gallery">
   <div class="container">
     <h2 class="text-center text-uppercase">טעימות מהפעילות</h2>
     <hr class="star-dark mb-5">
     <div class="row">
       <div class="col-md-12 col-lg-12">
-        TODO add carusel in here!!!!!
-        
+        <?php
+          $main_page_gallery = get_main_page_gallery();
+        ?>
+        <div id="hivrot-main-page-gallery" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+
+            <?php
+              foreach($main_page_gallery as $i => $main_page_gallery_image){
+            ?>
+              <li data-target="#hivrot-main-page-gallery" data-slide-to="0" <?= $i ===0 ? 'class="active"' : ''?>></li>
+            <?php
+              }
+            ?>
+          </ol>
+          <div class="carousel-inner">
+            <?php
+              foreach($main_page_gallery as $i => $main_page_gallery_image){
+            ?>
+            <div class="carousel-item <?= $i ===0 ? 'active' : ''?>">
+              <img class="d-block w-100" src="<?=$main_page_gallery_image['guid']?>" alt="<?=$main_page_gallery_image['post_excerpt']?>">
+            </div>
+          <?php
+              }
+            ?>
+          </div>
+          <a class="carousel-control-prev" href="#hivrot-main-page-gallery" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#hivrot-main-page-gallery" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
       </div><!-- End of column -->
     
     </div><!-- End of row -->
