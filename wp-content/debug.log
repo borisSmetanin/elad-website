@@ -190,4 +190,3 @@ Stack trace:
 [29-Sep-2018 20:39:11 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
 [29-Sep-2018 20:39:26 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
 [29-Sep-2018 20:40:03 UTC] PHP Notice:  Undefined variable: HIVROT_SITE_URL in /mnt/c/Users/Public/projects/elad/wp-content/themes/hivrot/header.php on line 53
-=======
