@@ -144,17 +144,11 @@ function prefix_send_email_to_admin() {
      *
      * We can do our normal processing here
      */ 
-
-     // Sendgrid credentials
-    $sendgrid_credentials = [
-        'user_name' => 'hivrot',
-        'password'  => 'ilovelinux1!',
-        'email'     => 'boris.smetanin1703@gmail.com',
-        'api_key'   => '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'
-    ];
-
+    
     // load composer's aoutoload
     require ABSPATH . 'vendor/autoload.php';
+
+    $config = include ABSPATH . 'config.php';
 
     // Use sendgrid SDK to send the email
     $email = new \SendGrid\Mail\Mail(); 
@@ -198,7 +192,7 @@ function prefix_send_email_to_admin() {
         )
     );
 
-    $sendgrid = new \SendGrid($sendgrid_credentials['api_key']);
+    $sendgrid = new \SendGrid($config['sendgrid']['api_key']);
 
     try {
         $response = $sendgrid->send($email);

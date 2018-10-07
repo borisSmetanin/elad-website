@@ -1,0 +1,9 @@
+*.log
+*.env
+*.jpg
+*.jpeg
+*.png
+composer.phar
+/vendor/
+/wp-content/debug.log
+config.php
